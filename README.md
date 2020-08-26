@@ -21,7 +21,7 @@ To have requests forwarded to your process by `http.sys` requires registering th
 
 * use the following command:
 
-`netsh http add urlacl url=http://+:80/MyUri user=DOMAIN\user`
+`netsh http add urlacl url=http://+:8080/TestService user=DOMAIN\user`
 
 * "Run as Administrator" TestServer.exe
 
